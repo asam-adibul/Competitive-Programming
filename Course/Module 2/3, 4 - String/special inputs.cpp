@@ -21,6 +21,8 @@ int main() {
        // putting \ inside string
        string s = "This is a backslash: \\";
        cout << s << endl;
+       string k = "This is a double quote: \"\" ";
+       cout << k << endl;
     }
 
 
