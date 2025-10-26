@@ -8,6 +8,8 @@ using namespace std;
 #define rall(x) (x).begin(), (x).end()
 #define N 1e5 + 7
 #define mod 1e9 + 7
+#define nl '\n'
+
 
 
 
