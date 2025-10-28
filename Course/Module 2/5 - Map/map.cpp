@@ -32,6 +32,21 @@ int main() {
             cout << m[0]; -> log(n)
         */
 
+        //one key multiple value possible
+        map<int, vector<int>> mpp;
+        mpp[5].pb(5);
+        mpp[5].pb(1000);
+        mpp[5].pb(69);
+        mpp[2].pb(11);
+        mpp[2].pb(-10);
+
+        cout << "Output from vector as value in a map: ";
+        for(int a: mpp[5]){
+            cout << a << " ";
+        }
+        cout << "from a specific index: ";
+        cout << mpp[5][2] << endl;
+
     }
 
 
