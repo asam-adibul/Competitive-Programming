@@ -60,6 +60,31 @@ int main() {
         }
         
         st.clear(); //clears the set
+
+        // set of strings 
+
+        set <string> sts;
+        sts.insert("adibul");
+        sts.insert("asam");
+        sts.insert("asam");
+        sts.insert("rafid");
+        sts.insert("Adibul");
+        sts.insert("rafid");
+
+        for(auto it: sts){
+            cout << it << " ";
+        }cout << endl;
+
+        ///
+        // -> MEX = Maximum Excluded
+        // {0, 2, 3, 4} = 1
+        // {0, 1, 2, 5} = 3
+
+        
+
+
+
+
     }
 
 
