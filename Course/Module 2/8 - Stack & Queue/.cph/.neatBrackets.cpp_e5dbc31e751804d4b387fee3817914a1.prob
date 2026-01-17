@@ -1,0 +1,1 @@
+{"name":"Local: neatBrackets","url":"f:\\CPS\\Competitive-Programming\\Course\\Module 2\\8 - Stack & Queue\\neatBrackets.cpp","tests":[{"id":1768679045009,"input":"((()()))","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\CPS\\Competitive-Programming\\Course\\Module 2\\8 - Stack & Queue\\neatBrackets.cpp","group":"local","local":true}
